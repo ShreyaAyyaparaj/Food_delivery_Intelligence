@@ -1,18 +1,12 @@
-
-# Secrets
+# Environment and secrets
 .env
+.venv/
+venv/
 
 # Python
 __pycache__/
 *.py[cod]
-.venv/
-venv/
 
-# Jupyter
-.ipynb_checkpoints/
-
-# IDE
-.vscode/
-
-# Environment files
-*.log
+# Generated ML data and model artifacts
+data/processed/ml/
+models/*.joblib
