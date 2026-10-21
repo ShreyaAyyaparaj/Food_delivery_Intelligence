@@ -1,12 +1,12 @@
-# Environment and secrets
+# Secrets and environments
 .env
 .venv/
 venv/
 
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
 
-# Generated ML data and model artifacts
+# Generated ML datasets and models
 data/processed/ml/
 models/*.joblib
