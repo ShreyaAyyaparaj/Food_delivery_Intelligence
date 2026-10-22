@@ -10,3 +10,5 @@ __pycache__/
 # Generated ML datasets and models
 data/processed/ml/
 models/*.joblib
+data/raw/
+data/processed/food_delivery_clean.csv
